@@ -14,7 +14,7 @@ A documentação oficial do Bootstrap é encontrada neste link [https://getboots
 O Bootstrap é um framework CSS/JS, ou seja, suas funcionalidades estão escritas em ambas as linguagens. O JS é utilizado nos componentes em que não é possível obter o funcionamento pleno apenas com CSS, mas isso veremos quando chegarmos no roteiro de componentes.
 
 O template padrão do Bootstrap é este:
-```
+```html
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -46,7 +46,7 @@ O template padrão do Bootstrap é este:
 Neste template, deve-se escolher entre a opção 1 (com a biblioteca [Popper](https://popper.js.org/) embutida) e a opção 2 (O Popper separado, podendo inclusive ser omitido). O [Popper](https://popper.js.org/) é utilizado no Bootstrap para implementar os componentes [Popovers](https://getbootstrap.com/docs/5.1/components/popovers/) e [Tooltips](https://getbootstrap.com/docs/5.1/components/tooltips/), se não utilizar nenhum desses componentes, pode optar pela opção dois e omitir o carregamento do Popper.
 
 Para o cenário descrito acima, o template ficará desta forma (não deve-se esquecer de remover o comentário para que o JS seja carregado):
-```
+```html
 <!doctype html>
 <html lang="pt-br">
   <head>
