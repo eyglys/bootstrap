@@ -3,7 +3,7 @@ O Bootstrap é um framework [responsivo](https://medium.com/jaguaribetech/imagen
 
 O framework foi criado inicialmente por uma equipe do Twitter e hoje é mantido como um projeto Open Source ([ver repositório](https://github.com/twbs/bootstrap)).
 
-## Objetivos:
+## Objetivos
 1. Apresentar o link para a documentação oficial
 2. Apresentar o template básico do Bootstrap
 
