@@ -2,6 +2,9 @@
 A coloração de links do Bootstrap segue o mesmo estilo de cores de texto, com cor primária, secundárias, etc.
 
 
+## Objetivos
+1. Aprender as classes de formatação de link.
+
 ## Roteiro
 Por serem links suas classes possuem o prefixo `link-`, possuindo o `link-primary`, `link-secondary` e todos os outros existentes no sistema de cores. A vantagem de sua utilização em detrimento do `text-` é permitir uma maior personalização (que será abordado em outro ponto deste roteiro) voltada exclusivamente para os links. As opções disponíveis são `link-primary`, `link-secondary`, `link-success`, `link-danger`, `link-warning`, `link-info`, `link-light` e `link-dark`, como mostrado na figura abaixo:
 
