@@ -4,3 +4,4 @@ Este roteiro é parte do material para as atividades práticas do framework [Boo
 
 # Roteiros
 1. [Introdução](./01_introduction/README.md)
+2. [Cores de texto](./02_cores/README.md)
