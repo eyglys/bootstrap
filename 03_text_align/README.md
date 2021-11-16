@@ -1,4 +1,4 @@
-# Roteiro de alinhamento de texto
+# Alinhamento de texto
 O alinhamento de texto segue uma lógica diferente do alinhamento de blocos. O alinhamento de texto abordada nesse roteiro segue o mesmo raciocínio do alinhamento já utilizado em editores de texto.
 
 ## Objetivos

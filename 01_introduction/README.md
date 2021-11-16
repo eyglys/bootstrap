@@ -1,4 +1,4 @@
-# Roteiro de introdução
+# Introdução
 O Bootstrap é um framework [responsivo](https://medium.com/jaguaribetech/imagens-responsivas-css3-1403253225c6), bastante utilizado na web ([ver números atuais](https://w3techs.com/technologies/overview/javascript_library)), pronto para o uso.
 
 O framework foi criado inicialmente por uma equipe do Twitter e hoje é mantido como um projeto Open Source ([ver repositório](https://github.com/twbs/bootstrap)).
