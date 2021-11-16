@@ -51,6 +51,6 @@ Imagem gerada pelo HTML:
 ```
 
 ## Atividade
-1. Copie e cole alguns parágrafos de alguma notícia, marque-os como parágrafo (`<p>`)
-2. Usando o `<span>` destaque alguns trechos usando alguma das cores disponíveis no Bootstrap
-3. Aplique transparência em algum trecho que não achou interessante (não esqueça de marcar esse trecho com `<span>`)
+1. Copie e cole alguns parágrafos de alguma notícia, marque-os como parágrafo (`<p>`).
+2. Usando o `<span>` destaque alguns trechos usando alguma das cores disponíveis no Bootstrap.
+3. Aplique transparência em algum trecho que não achou interessante (não esqueça de marcar esse trecho com `<span>`). Escolha qualquer das cores disponíveis para utilizar com a transparência.
