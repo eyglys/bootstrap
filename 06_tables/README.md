@@ -222,6 +222,8 @@ Esta área de exibição normalmente é implementada através de um `<div>`, mas
 </div>
 ```
 
+A responsividade pode ser configurada dependendo do [tamanho do dispositivo](../03_text_align/README.md#tamanho-de-dispositivos), com uma observação importante, **ao configurar o tamanho do dispositivo, a tabela deixará de ter rolagem horizontal deste tamanho para cima**, ou seja, se configurar como `table-responsive-md`, haverá rolagem horizontal em dispositivos extra pequeno e pequeno, nos dispositivos médios, grande, extra grande e extra extra grande não haverá rolagem horizontal. Os tamanhos disponíveis são: `table-responsive-sm`, `table-responsive-md`, `table-responsive-lg`, `table-responsive-xl` e `table-responsive-xxl`. Utilizar apenas o `table-responsive` deixará a tabela responsiva em todos os tamanhos.
+
 ## Atividade
 1. Crie uma tabela que alterne as cores de suas linhas mas não possua nenhuma borda (inclusive as externas)
 2. Copie a tabela anterior, mas desta vez ela deve possuir todas as bordas, escolha uma das opções disponíveis para as cores de borda
