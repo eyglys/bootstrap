@@ -63,5 +63,8 @@ O resultado seria completamente diferente, pois o `col-9` extrapola o espaço qu
 
 Este comportamento é muito útil ao criar-se uma interface que deve ser responsiva, pois podemos configurar tamanhos diferentes para as colunas dependendo do tamanho do dispositivo e recorrer a este comportamento de "jogar para baixo", forçando o conteúdo a se estender na vertical (que não há limite, pois o usuário pode rolar a barra).
 
+### Coluna dependendo do tamanho do dispositivo
+As colunas podem ser configuradas para tamanhos diferentes dependendo do tamanho do dispositivo, sendo bastante útil para fazer com que o mesmo conteúdo ocupe espaços diferentes. Tome como exemplo
+
 
 ## Atividade
