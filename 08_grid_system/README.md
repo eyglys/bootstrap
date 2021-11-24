@@ -140,6 +140,7 @@ Abaixo uma modificação no código para acrescentar mais `col` e perceber sua f
 
 ![Dispositivo extra pequeno](./imgs/col_with_col_lg_mobile2.png)
 
+Neste novo exemplo fica ainda mais evidente o comportamento do `col` em dividir igualmente o espaço disponível.
 
 
 ## Atividade
