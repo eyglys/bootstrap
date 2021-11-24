@@ -64,7 +64,82 @@ O resultado seria completamente diferente, pois o `col-9` extrapola o espaço qu
 Este comportamento é muito útil ao criar-se uma interface que deve ser responsiva, pois podemos configurar tamanhos diferentes para as colunas dependendo do tamanho do dispositivo e recorrer a este comportamento de "jogar para baixo", forçando o conteúdo a se estender na vertical (que não há limite, pois o usuário pode rolar a barra).
 
 ### Coluna dependendo do tamanho do dispositivo
-As colunas podem ser configuradas para tamanhos diferentes dependendo do tamanho do dispositivo, sendo bastante útil para fazer com que o mesmo conteúdo ocupe espaços diferentes. Tome como exemplo
+As colunas podem ser configuradas para tamanhos diferentes dependendo do dispositivo, sendo bastante útil para fazer com que o mesmo conteúdo ocupe espaços diferentes. Os prefixos de classe responsivos estão listadas abaixo.
+
+| Tamanho | xs | sm | md | lg | xl | xxl |
+| ---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Prefixo | `col-` | `col-sm-` | `col-md-` | `col-lg-` | `col-xl-` | `col-xxl-` |
+
+Estes prefixos necessitam de um número como complemento, como foi feito em todos os exemplos até então. Para o prefixo `col-`, existem as classes `col-1`, `col-2`, `col-3`, até o `col-12`, o mesmo para todos os outros prefixos.
+
+Tome como exemplo a figura abaixo, em que o mesmo código resulta em duas visualizações diferente (dependendo do dispositivo).
+
+![Comparativo entre dispositivos](./imgs/desktop_mobile_1.png)
+
+Na direita temos uma exibição em computador de mesa, onde normalmente há bastante espaço para exibição, sendo possível exibir os blocos um ao lado do outro, já na versão móvel, pela limitação da largura da tela, há a necessidade de exibir um bloco abaixo do outro.
+
+Uma exibição como a mostrada na ilustração, pode ser obtida com um código semelhante ao abaixo (neste exemplo já não estou exibindo o `<div class="container">`).
+
+```html
+<div class="row">
+  <div class="col-12 col-lg-4">Coluna 01</div>
+  <div class="col-12 col-lg-4">Coluna 02</div>
+  <div class="col-12 col-lg-4">Coluna 03</div>
+</div>
+```
+
+A utilização das classes `col-12` e `col-lg-4` está informando o seguinte:
+1. `col-12`: o `<div>` deverá ocupar todo o espaço disponível para dispositivos extra pequeno **e todos os dispositivos maiores**
+2. `col-lg-4`: o mesmo `<div>` deverá ocupar 4/12 em dispositivos grandes **e todos os dispositivos maiores**
+
+A formatação para um dispositivo maior sempre irá sobrepor a configuração para um dispositivo menor, o resultado deste código é que em dispositivos extra pequeno, pequeno e médio as colunas ocuparão todo o espaço que houver disponível, para dispositivos grande, extra grande e extra extra grande cada coluna irá ocupará 4/12 (1/3), permitindo até `<div>` na mesma linha.
+
+### Classe de largura automática
+Além das classes responsivas há uma classe que formata a coluna com a largura que está disponível, dividindo igualmente este espaço entre todas as colunas automáticas. **A classe é `col`**, sem nenhum sufixo.
+
+```html
+<div class="row">
+  <div class="col">Coluna 01</div>
+  <div class="col">Coluna 02</div>
+  <div class="col">Coluna 03</div>
+</div>
+```
+Estas colunas ocuparão cada uma 1/3 do espaço disponível, caso seja acrescentado um novo `<div class="col">`, o espaço das colunas existentes reduzirá para caber as quatro colunas na mesma linha, sempre do mesmo tamanho.
+
+A classe `col` pode ser utilizada junto com as classes responsivas.
+
+```html
+<div class="row">
+  <div class="col">Coluna 01</div>
+  <div class="col-lg-5">Coluna 02</div>
+  <div class="col">Coluna 03</div>
+</div>
+```
+
+Este código gera as seguintes visualizações, respectivamente em dispositivo grande e extra pequeno:
+
+![Dispositivo grande](./imgs/col_with_col_lg_desktop.png)
+
+![Dispositivo extra pequeno](./imgs/col_with_col_lg_mobile.png)
+
+Em dispositivos grandes (e maiores) a coluna 02 deverá ocupar 5 espaços (de 12 disponíveis) e as colunas configuradas apenas com `col` ocuparão o restante do espaço disponível. Quando a visualização é relizada em um dispositivo extra pequeno, a coluna 02 assumirá um valor padrão por não haver configuração para extra pequeno, na configuração padrão a coluna ocupa 100% do espaço disponível (é como se houvesse um `col-12` junto com o `col-lg-5`), isso força as colunas 01 e 03 a não ficarem na mesma linha que a coluna 02. Como cada `col` possui uma linha inteira disponível, ela ocupará esse espaço inteiro.
+
+Abaixo uma modificação no código para acrescentar mais `col` e perceber sua função de dividir o espaço disponível igualmente.
+
+```html
+<div class="row">
+  <div class="col">Coluna 01</div>
+  <div class="col">Coluna 02</div>
+  <div class="col-lg-5">Coluna 03</div>
+  <div class="col">Coluna 04</div>
+  <div class="col">Coluna 05</div>
+</div>
+```
+
+![Dispositivo grande](./imgs/col_with_col_lg_desktop2.png)
+
+![Dispositivo extra pequeno](./imgs/col_with_col_lg_mobile2.png)
+
 
 
 ## Atividade
