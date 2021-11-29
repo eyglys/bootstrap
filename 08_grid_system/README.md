@@ -144,3 +144,10 @@ Neste novo exemplo fica ainda mais evidente o comportamento do `col` em dividir 
 
 
 ## Atividade
+> As ilustrações não são renderizações reais, a altura dos blocos são meramente ilustrativos, as renderizações terão a altura de seu conteúdo (não usem a altura como parâmetro para saber se está fazendo correto ou não)
+
+1. Observe os blocos da figura abaixo e crie um código HTML (usando Bootstrap) que seja capaz de obter a mesma organização/comportamento em seus respectivos dispositivos (encare como dispositivo de mesa os que são grande, extra grande e extra extra grande, os móveis são os restantes). As colunas possuem a mesma largura.
+   ![Exercício 01](./imgs/exe/exercise_01.png)
+2. Observe agora que um dos blocos ocupa 2/3 do espaço disponível e o outro bloco ocupa 1/3 (na versão para desktop). Na versão móvel ambos ocupam todo o espaço disponível.
+   
+   ![Exercício 02](./imgs/exe/exercise_02.png)

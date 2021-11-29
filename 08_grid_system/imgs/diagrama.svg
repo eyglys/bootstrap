@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="173.36205mm"
+   height="71.107994mm"
+   viewBox="0 0 173.36205 71.107994"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="diagrama.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient950"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop948" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="222.77653"
+     inkscape:cy="-29.512578"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1866"
+     inkscape:window-height="1016"
+     inkscape:window-x="54"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-27.52876,-9.87238)">
+    <g
+       id="g972"
+       inkscape:export-xdpi="87.810234"
+       inkscape:export-ydpi="87.810234">
+      <g
+         transform="translate(6.1471992,11.583651)"
+         id="g884">
+        <rect
+           style="opacity:1;fill:#f22a2a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect815"
+           width="40.892239"
+           height="21.648832"
+           x="21.381561"
+           y="25.72143" />
+        <rect
+           style="opacity:1;fill:#4b44bb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect815-3"
+           width="40.892239"
+           height="21.648832"
+           x="62.2738"
+           y="25.72143" />
+        <rect
+           style="opacity:1;fill:#668000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect815-3-6"
+           width="40.892239"
+           height="21.648832"
+           x="103.16604"
+           y="25.721432" />
+      </g>
+      <text
+         id="text849"
+         y="35.434193"
+         x="79.716431"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.1;stroke:#ffffff;stroke-opacity:1;fill:#000000;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-rule:nonzero;"
+           y="35.434193"
+           x="79.716431"
+           id="tspan847"
+           sodipodi:role="line">Desktop</tspan></text>
+      <text
+         id="text853"
+         y="13.42703"
+         x="173.84784"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.1;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+           y="13.42703"
+           x="173.84784"
+           id="tspan851"
+           sodipodi:role="line">Móvel</tspan></text>
+      <g
+         transform="translate(63.342878,-64.144687)"
+         id="g879">
+        <rect
+           style="opacity:1;fill:#f22a2a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect815-7"
+           width="40.892239"
+           height="21.648832"
+           x="96.655685"
+           y="80.178558" />
+        <rect
+           style="opacity:1;fill:#4b44bb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect815-3-5"
+           width="40.892239"
+           height="21.648832"
+           x="96.655685"
+           y="101.82739" />
+        <rect
+           style="opacity:1;fill:#668000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect815-3-6-3"
+           width="40.892239"
+           height="21.648832"
+           x="96.655685"
+           y="123.47623" />
+      </g>
+    </g>
+  </g>
+</svg>
