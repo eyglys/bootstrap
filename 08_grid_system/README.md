@@ -142,6 +142,35 @@ Abaixo uma modificação no código para acrescentar mais `col` e perceber sua f
 
 Neste novo exemplo fica ainda mais evidente o comportamento do `col` em dividir igualmente o espaço disponível.
 
+### Utilização aninhada
+A utilização aninhada serve para subdividir um espaço já dividido anteriormente, sempre mantendo a separação máxima de 12 colunas por linha (exceto quando se usa a coluna automática, que não há limites). No exemplo abaixo, apresento uma ilustração de como é a organização dos blocos em um formato móvel e de dispositivo de mesa, assim como o código e a renderização real (com cores nos blocos).
+
+![Ilustração](./imgs/nested.png)
+
+Nesta ilustração o objetivo é compreender a organização dos blocos (no formato real não ficará com estas margens e preenchimentos). Neste exemplo, comum em sites de vendas, observamos um bloco verde na esquerda que conterá os filtros da busca (este bloco reduz e fica bem pequeno, no topo da página na versão móvel), assim como observamos a área de resultados, nesta área serão exibidos os produtos, lado a lado já que os dispositivos maiores permitem. Em uma versão móvel, essa exibição muda para que cada produto seja exibido um abaixo do outro. A área de exibição dos produtos foi subdividida, foi realizado uma utilização **aninhada** da divisão do espaço. Vejam o código correspondente a isso.
+
+![Renderizado](./imgs/nested_rendered.png)
+
+É importante notar que na versão renderizada não há todos os espaços disponíveis na ilustração (esta serve apenas para dar uma noção da organização), as cores de alguns blocos simplesmente somem, como é o caso do bloco responsável por armazenar o resultado, que apesar de estar alí, com a cor definida, não aparece visualmente. O código que gerou esta renderização é o código abaixo.
+
+```html
+<div class="row">
+  <div class="col-12 col-md-4">
+    Filtros
+  </div>
+  <div class="col-12 col-md-8">
+    <div class="row">
+      <div class="col-md-4 col-12">Produto 1</div>
+      <div class="col-md-4 col-12">Produto 2</div>
+      <div class="col-md-4 col-12">Produto 3</div>
+      <div class="col-md-4 col-12">Produto 4</div>
+      <div class="col-md-4 col-12">Produto 5</div>
+      <div class="col-md-4 col-12">Produto 6</div>
+    </div>
+  </div>
+</div>
+```
+Neste trecho de código é importante enfatizar a presenta do segundo `<div class="row">`, ele está aparecendo dentro de uma coluna que em dispositivos médios (em diante) ocupa 1/3 do espaço, mas em dispositivos menores irá ocupar todo o espaço disponível. Esta coluna está recebendo uma subdivisão (o `row` representa isso) novamente em 12 colunas, recebendo dentro 6 regiões que irão ocupar tamanhos diferente dependendo do dispositivo. Mas sempre a divisão será do espaço que está disponível, caso o espaço disponível seja a tela inteira, ela será dividida em 12 colunas, se o espaço for de apenas uma parte da tela, essa pequena parte da tela também será dividida em 12 colunas (iguais).
 
 ## Atividade
 > As ilustrações não são renderizações reais, a altura dos blocos são meramente ilustrativos, as renderizações terão a altura de seu conteúdo (não usem a altura como parâmetro para saber se está fazendo correto ou não)
