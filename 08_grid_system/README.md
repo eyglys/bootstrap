@@ -4,6 +4,7 @@ O sistema de grid do Bootstrap é uma organização do *espaço disponível* em 
 ## Objetivos
 1. Entender o sistema de 12 colunas
 2. Compreender a utilização de colunas responsivas
+3. Subdivisão responsiva do espaço
 
 ## Roteiro
 O sistema de 12 colunas do Bootstrap cria uma divisão de um espaço qualquer (pode ser um `container` inteiro ou uma pequena região no rodapé da página) em 12 partes iguais, aqui chamadas de colunas.
