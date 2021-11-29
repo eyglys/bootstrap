@@ -11,5 +11,6 @@ Este roteiro é parte do material para as atividades práticas do framework [Boo
 6. [Tabelas](./06_tables/README.md)
 7. [Containers](./07_containers/README.md)
 8. [Sistema de grid](./08_grid_system/README.md)
+9. [Alinhamento e ordenação de blocos](./09_align_sort/README.md)
 
 [^1]: A [documentação do Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) foi utilizada como base para o desenvolvimento deste roteiro.
