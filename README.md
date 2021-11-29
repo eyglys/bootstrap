@@ -1,5 +1,5 @@
 # Roteiro de atividades práticas do Bootstrap
-Este roteiro é parte do material para as atividades práticas do framework [Bootstrap](https://getbootstrap.com)[^1].
+Este roteiro é parte do material para as atividades práticas do framework [Bootstrap](https://getbootstrap.com)[^1], utilizado em disciplinas de formação em desenvolvimento web. Este material é disponibilizado gratuitamente e aceita contribuições para melhoria de seu conteúdo, correções gramaticais, etc.
 
 
 # Roteiros
