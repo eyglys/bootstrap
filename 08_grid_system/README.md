@@ -180,3 +180,6 @@ Neste trecho de código é importante enfatizar a presenta do segundo `<div clas
 2. Observe agora que um dos blocos ocupa 2/3 do espaço disponível e o outro bloco ocupa 1/3 (na versão para desktop). Na versão móvel ambos ocupam todo o espaço disponível.
    
    ![Exercício 02](./imgs/exe/exercise_02.png)
+3. Aproveite que entendeu o conceito de aninhamento e construa uma solução para o diagrama mostrado abaixo.
+
+    ![Exerício 03](./imgs/exe/exercise_03.png)
