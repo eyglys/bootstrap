@@ -34,22 +34,22 @@ Os alinhamentos são no início (`align-items-start`), no centro (`align-items-c
 
 ```html
 <div class="row align-items-start">
-  <div class="col-6">Bloco 1</div>
-  <div class="col-6">Bloco 2</div>
+  <div class="col-4">Bloco 1</div>
+  <div class="col-4">Bloco 2</div>
 </div>
 ```
 
 ```html
 <div class="row align-items-center">
-  <div class="col-6">Bloco 1</div>
-  <div class="col-6">Bloco 2</div>
+  <div class="col-4">Bloco 1</div>
+  <div class="col-4">Bloco 2</div>
 </div>
 ```
 
 ```html
 <div class="row align-items-end">
-  <div class="col-6">Bloco 1</div>
-  <div class="col-6">Bloco 2</div>
+  <div class="col-4">Bloco 1</div>
+  <div class="col-4">Bloco 2</div>
 </div>
 ```
 
@@ -94,7 +94,38 @@ Já o alinhamento horizontal é mais perceptível de se notar, pois na exibiçã
 
 ![Alinhamento ao redor](./imgs/justify-content-evenly.png)
 
+Para não escrever um código para cada, colocarei apenas um código de exemplo, mas que serve para todos os outros, bastando alterar a classe que será utilizada.
+
+```html
+<div class="row justify-content-between">
+  <div class="col-4">Bloco 1</div>
+  <div class="col-4">Bloco 2</div>
+</div>
+```
+Neste código, será utilizado o alinhamento entre os elementos, forçando os blocos a tocarem as margens da direita e esquerda. O mesmo pode ser feito, trocando a classe `justify-content-between` pela classe de alinhamento desejada. É importante notar que **não se deve utilizar mais de uma classe de alinhamento no mesmo elemento!**
+
 ### Ordenação
+A ordem natural de apresentação dos elementos é a que foi codificada no HTML, o primeiro a ser escrito no código será o elemento mais à esquerda. Com as classes utilitárias de ordenação, é possível alterar essa ordem de forma responsiva, ou seja, ter um comportamento diferente dependendo do tamanho dispositivo.
+
+As classes de ordenação possuem prefixo `order-`, variando de *1* a *5*, sendo a primeira a classe `order-1`. A variação para adequar ao tamanho do dispositivo é acrescida entre o prefixo `order-` e o número. Para um bloco que deve ser o primeiro a aparecer em dispositivo médio em diante, a classe adequada seria `order-md-1`. Além das classes numeradas, há as classes com terminação `first` e `last` (`order-first`, `order-last`, `order-lg-first`, `order-lg-last`, etc), que respectivamente representam a exibição como primeiro e último.
+
+```html
+<div class="row">
+  <div class="col-3 order-last">Bloco 1</div>
+  <div class="col-3 order-5">Bloco 2</div>
+  <div class="col-3 order-4">Bloco 3</div>
+  <div class="col-3 order-3">Bloco 4</div>
+  <div class="col-3 order-2">Bloco 5</div>
+  <div class="col-3 order-1">Bloco 6</div>
+  <div class="col-3 order-first">Bloco 7</div>
+</div>
+```
+
+O código acima possui a renderização abaixo (os blocos foram coloridos para facilitar a visualização do limite de cada um).
+
+![Ordenação](./imgs/order-example.png)
+
+Na renderização é possível observar que a ordem de exibição está completamente diferente da ordem em que foi escrito o código. O código acima funciona exatamente igual para todos os dispositivos, por não ter sido utilizado os modificadores para tamanho de dispositivo (`xs`, `sm`, `md`, `lg`, `xl` e `xxl`).
 
 ## Atividade
 1. 
