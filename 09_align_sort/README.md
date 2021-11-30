@@ -128,4 +128,11 @@ O código acima possui a renderização abaixo (os blocos foram coloridos para f
 Na renderização é possível observar que a ordem de exibição está completamente diferente da ordem em que foi escrito o código. O código acima funciona exatamente igual para todos os dispositivos, por não ter sido utilizado os modificadores para tamanho de dispositivo (`xs`, `sm`, `md`, `lg`, `xl` e `xxl`).
 
 ## Atividade
-1. 
+1. Usando o código abaixo como modelo inicial (deverão partir do template padrão do Bootstrap e acrescentar o código abaixo), crie dentro do `<div class="row">` 3 colunas de largura 3, mantendo-as alinhadas uniformemente na horizontal.
+```html
+<div class="row">
+  <!-- continue deste ponto -->
+</div>
+```
+
+2. Com o código da atividade anterior, mude a ordem de exibição, escolha qualquer ordem, desde que não seja a ordem natural de apresentação.
