@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="91.524811mm"
+   height="37.97435mm"
+   viewBox="0 0 91.524811 37.97435"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="illustration.svg"
+   inkscape:export-filename="/home/eyglys/projetos/bootstrap/10_margin_padding/imgs/illustration.png"
+   inkscape:export-xdpi="124.88"
+   inkscape:export-ydpi="124.88">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="180.15964"
+     inkscape:cy="18.791303"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     fit-margin-left="1"
+     inkscape:window-width="1866"
+     inkscape:window-height="1016"
+     inkscape:window-x="54"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.34296606,-2.4719041)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect941"
+       width="91.524811"
+       height="37.97435"
+       x="0.34296605"
+       y="2.471904" />
+    <rect
+       style="opacity:1;fill:#c56fc5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="61.421127"
+       height="23.056549"
+       x="28.94665"
+       y="15.889705" />
+    <path
+       id="path868-3"
+       d="m 60.856454,15.179909 2.175219,-2.175378 a 0.22434021,0.22434021 0 0 0 0.06906,-0.159014 l 1.59e-4,-0.0039 a 0.22558375,0.22558375 0 0 0 -0.06374,-0.157585 0.22865292,0.22865292 0 0 0 -0.325438,-7.14e-4 L 60.92284,14.472377 V 7.5021137 a 0.22664208,0.22664208 0 1 0 -0.453258,0 v 6.9702633 l -1.788345,-1.788345 a 0.22690667,0.22690667 0 0 0 -0.32049,-0.0057 0.22389042,0.22389042 0 0 0 -0.06834,0.161395 0.23677562,0.23677562 0 0 0 0.06763,0.164307 l 2.175934,2.175746 a 0.22719771,0.22719771 0 0 0 0.32049,7.9e-5 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:0.26458332;fill:#aa0000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="54.365547"
+       y="7.0072646"
+       id="text895"><tspan
+         sodipodi:role="line"
+         id="tspan893"
+         x="54.365547"
+         y="7.0072646"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1">Borda</tspan></text>
+    <g
+       id="g926"
+       transform="translate(18.079834,-121.08194)">
+      <path
+         style="stroke-width:0.26458332"
+         inkscape:connector-curvature="0"
+         d="m 19.606401,148.3402 -2.175378,-2.17522 a 0.22434021,0.22434021 0 0 0 -0.159014,-0.0691 l -0.0039,-1.6e-4 a 0.22558375,0.22558375 0 0 0 -0.157585,0.0637 0.22865292,0.22865292 0 0 0 -7.15e-4,0.32544 l 1.78906,1.78887 h -6.970263 a 0.22664208,0.22664208 0 1 0 0,0.45326 h 6.970263 l -1.788345,1.78834 a 0.22690667,0.22690667 0 0 0 -0.0057,0.32049 0.22389042,0.22389042 0 0 0 0.161395,0.0683 0.23677562,0.23677562 0 0 0 0.164307,-0.0676 l 2.175746,-2.17593 a 0.22719771,0.22719771 0 0 0 7.9e-5,-0.32049 z"
+         id="path868" />
+      <text
+         id="text899"
+         y="150.23874"
+         x="19.84375"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:1"
+           y="150.23874"
+           x="19.84375"
+           id="tspan897"
+           sodipodi:role="line">Preenchimento</tspan></text>
+      <text
+         id="text903"
+         y="149.74799"
+         x="-17.103426"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:100%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:1"
+           y="149.74799"
+           x="-17.103426"
+           id="tspan901"
+           sodipodi:role="line">Margem</tspan></text>
+      <path
+         style="stroke-width:0.26458332"
+         inkscape:connector-curvature="0"
+         d="m 2.0327127,148.3402 2.175378,-2.17522 a 0.22434021,0.22434021 0 0 1 0.159014,-0.0691 l 0.0039,-1.6e-4 a 0.22558375,0.22558375 0 0 1 0.157585,0.0637 0.22865292,0.22865292 0 0 1 7.14e-4,0.32544 l -1.789059,1.78887 h 6.970263 a 0.22664208,0.22664208 0 1 1 0,0.45326 h -6.970263 l 1.788345,1.78834 a 0.22690667,0.22690667 0 0 1 0.0057,0.32049 0.22389042,0.22389042 0 0 1 -0.161395,0.0683 0.23677562,0.23677562 0 0 1 -0.164307,-0.0676 l -2.175746,-2.17593 a 0.22719771,0.22719771 0 0 1 -7.9e-5,-0.32049 z"
+         id="path868-6" />
+    </g>
+  </g>
+</svg>
