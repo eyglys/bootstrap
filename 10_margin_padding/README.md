@@ -70,3 +70,17 @@ O exemplo abaixo mostra uma utilização para as margens e preenchimentos.
 As classes de margem e preenchimento utilizadas no exemplo foram `mt-2` (Margem no topo de tamanho 2, para todos os tamanhos de dispositivos), `px-1` (preenchimento na esquerda e direita de tamanho 1 para todos os tamanhos de dispositivos) e `px-md-3` (preenchimento de tamanho 3 em dispositivos médios e maiores). Neste exemplo em que há uma sobreposição entre `px-1` e `px-md-3`, a configuração de tamanho maior será utilizada para o dispositivo informado e os maiores, isso quer dizer que em dispositivos `xs` e `sm`, o preenchimento será 1, mas nos dispositivos `md`, `lg`, `xl` e `xxl` o preenchimento será de tamanho 3.
 
 ## Atividade
+```html
+<style>
+  .borda {
+    border: 1px solid black;
+  }
+</style>
+<div class="d-flex">
+  <div class="borda">Conteúdo 1</div>
+  <div class="borda">Conteúdo 2</div>
+  <div class="borda">Conteúdo 3</div>
+</div>
+```
+1. Considerando o código acima, formate as margens para que os elementos se distanciem um pouco um do outro (qualquer distância);
+2. Em quase todos os blocos não há distância entre a borda e o conteúdo, solucione este problema no no mesmo código apresentado no início da atividade
