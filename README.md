@@ -14,5 +14,6 @@ Este roteiro é parte do material para as atividades práticas do framework [Boo
 9. [Alinhamento e ordenação de blocos](./09_align_sort/README.md)
 10. [Margem e preenchimento](./10_margin_padding/README.md)
 11. [Borda, Sombra e Opacidade](./11_border_shadow_opacity/README.md)
+12. [Posicionamento, Redimensionamento e exibição de elementos](./12_position_sizing_display/README.md)
 
 [^1]: A [documentação do Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) foi utilizada como base para o desenvolvimento deste roteiro.
