@@ -57,7 +57,37 @@ O mesmo pode ser feito na disposição em coluna com o `flex-column` e `flex-col
 
 Nos dois casos estarão disponíveis as variações responsivas para a linha `flex-sm-row`, `flex-sm-row-reverse`, `flex-md-row`, `flex-md-row-reverse`, `flex-lg-row`, `flex-lg-row-reverse`, `flex-xl-row`, `flex-xl-row-reverse`, `flex-xxl-row`, `flex-xxl-row-reverse` e também as versões para coluna `flex-sm-column`, `flex-sm-column-reverse`, `flex-md-column`, `flex-md-column-reverse`, `flex-lg-column`, `flex-lg-column-reverse`, `flex-xl-column`, `flex-xl-column-reverse`, `flex-xxl-column` e `flex-xxl-column-reverse`.
 
-## Alinhamento dos blocos internos
-O alinhamento dos blocos internos é implementado com o [recurso de alinhamento já apresentado anteriormente](../09_align_sort/README.md#horizontal-align).
+## Alinhamento e ordem dos blocos internos
+O alinhamento e ordem dos blocos internos é implementado com o [recurso já apresentado anteriormente](../09_align_sort/README.md).
+
+## Crescimento e encolhimento de elementos
+Como o flexbox foi concebido para lidar com dispositivos de tamanhos diferentes, não poderia faltar um recurso que orientasse como os elementos deveriam crescer ou diminuir para preencher o display. O crescimento é implementado pelas classes `flex-grow-0` e `flex-grow-1`. Por padrão todos os elementos começam com o `flex-grow-0`, isso quer dizer que ele não será *privilegiado* com o crescimento do dispositivo. Já com o `flex-grow-1`, o elemento crescerá indefinidamente junto com o tamanho do dispositivo (enquanto os outros elementos `flex-grow-0` continuarão com o mesmo tamanho).
+
+![flex grow](./imgs/flex-grow.png)
+```html
+<div class="d-flex bd-highlight">
+  <div class="p-2 flex-grow-1 bd-highlight">Flex item</div>
+  <div class="p-2 bd-highlight">Flex item</div>
+  <div class="p-2 bd-highlight">Third flex item</div>
+</div>
+```
+No exemplo acima, o que irá mudar de tamanho será apenas o primeiro bloco (da esquerda para a direita), pois ele está configurado com o `flex-grow-1` e os outros, por padrão, como `flex-grow-0`. Caso existam dois elementos com `flex-grow-1`, ambos irão crescer em um dispositivo maior.
+
+Com o `flex-shrink-0` e `flex-shrink-1`, o padrão será `flex-shrink-0`, que quer dizer que o elemento **não** será priorizado a perder largura caso o tamanho do dispositivo diminua. Já o `flex-shrink-1` está informando exatamente o contrário, que a largura do elemento não é tão importante e pode diminuir.
+
+![flex shrink](./imgs/flex-flex-shrink.png)
+```html
+<div class="d-flex bd-highlight">
+  <div class="p-2 w-100 bd-highlight">Flex item</div>
+  <div class="p-2 flex-shrink-1 bd-highlight">Flex item</div>
+</div>
+```
+
+No exemplo acima, o segundo bloco (da esquerda para a direita) foi o bloco que perdeu largura pois o primeiro bloco está tentando ocupar 100% da largura (`w-100`).
+
+## Quebra de linha
+A quebra de linha é utilizada para informar ao navegador que quando os elementos não puderem ser exibidos um ao lado do outro, na mesma linha, ele poderá colocar alguns desses elementos na linha de baixo. A configuração que implementa isso é o `flex-wrap`, já o `flex-nowrap` diz que os elementos deverão ser "imprensados" na mesma linha, mas não deverá ter uma quebra. Também há disponível as versões `flex-wrap-reverse`, que tem o mesmo comportamento do `flex-wrap` mas exibe os elementos na ordem inversa. Além disso, está disponível as versões responsivas: `flex-sm-wrap`, `flex-sm-wrap-reverse`, `flex-md-wrap`, `flex-md-wrap-reverse`, `flex-lg-wrap`, `flex-lg-wrap-reverse`, `flex-xl-wrap`, `flex-xl-wrap-reverse`, `flex-xxl-wrap` e `flex-xxl-wrap-reverse`.
+
+Este recurso é muito útil ao preparar uma interface responsiva, pois podemos configurar para que os elementos "caiam" para a linha de baixo em dispositivos menores, evitando assim uma barra horizontal, que é péssima para dispositivo móveis.
 
 ## Atividade

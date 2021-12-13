@@ -62,7 +62,7 @@ Como já mencionado anteriormente, caso não esteja usando o sistema de grid, é
 </div>
 ```
 
-#### Alinhamento horizontal {#horizontal-align}
+#### Alinhamento horizontal
 Já o alinhamento horizontal é mais perceptível de se notar, pois na exibição *flex* os blocos perdem o comportamento natural de ocupar todo o espaço disponível para ocupar apenas a largura de seu conteúdo (ou a largura definida através do CSS), normalmente sobrando espaço. É nesse espaço que o alinhamento horizontal será feito. As opções são: no início (`justify-content-start`), no centro (`justify-content-center`), no fim (`justify-content-end`), ao redor (`justify-content-around`), entre (`justify-content-between`) e uniforme (`justify-content-evenly`).
 
 `justify-content-start`
