@@ -91,3 +91,4 @@ A quebra de linha é utilizada para informar ao navegador que quando os elemento
 Este recurso é muito útil ao preparar uma interface responsiva, pois podemos configurar para que os elementos "caiam" para a linha de baixo em dispositivos menores, evitando assim uma barra horizontal, que é péssima para dispositivo móveis.
 
 ## Atividade
+1. Planeje uma interface de site utilizando os recursos do flex. Esta interface deverá ter uma área para a logomarca, o menu de navegação e uma área de conteúdo. A interface deverá ter **pelo menos** o `d-flex` e `flex-wrap`.
