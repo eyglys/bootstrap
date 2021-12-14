@@ -1,5 +1,5 @@
 # Posicionamento, redimensionamento e exibição de elementos
-O Bootstrap possui algumas classes utilitárias para ajudar a lidar com coisas corriqueiras como a posição que um elemento deverá ocupar, o tamanho que esse elemento deverá ocupar na tela ou no espaço disponível e como ou se esses elementos deverão ser exibidos. Isso não é novidade, já que é possível definir isso rapidamente com o CSS, a vantagem ofertada pelo Bootstrap é a responsividade, conseguir um comportamento diferente dependendo do dispositivo, sem ter qu recorrer aos *[media query](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)* do CSS.
+O Bootstrap possui algumas classes utilitárias para ajudar a lidar com coisas corriqueiras como a posição que um elemento deverá ocupar, o tamanho que esse elemento deverá ocupar na tela ou no espaço disponível e como ou se esses elementos deverão ser exibidos. Isso não é novidade, já que é possível definir isso rapidamente com o CSS, a vantagem ofertada pelo Bootstrap é a responsividade, conseguir um comportamento diferente dependendo do dispositivo, sem ter que recorrer aos *[media query](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)* do CSS.
 
 ## Objetivos
 1. Conseguir utilizar as classes utilitárias de posicionamento, redimensionamento e exibição, associando a responsividade.
