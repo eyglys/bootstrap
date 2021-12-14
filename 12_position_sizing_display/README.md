@@ -30,6 +30,7 @@ O redimensionamento de elementos pode ser realizado na largura e altura. As clas
 </div>
 ```
 O código acima é renderizado desta forma:
+
 ![Diferença na largura](./imgs/sizing_diff.png)
 
 Percebam que a largura foi forçada através do CSS, no primeiro para `400px` e no segundo para `450px`, internamente o bloco possui o mesmo código, fazendo uso do `w-50`, mas a representação final será diferente pois os 50% do primeiro `<div>` será diferente do segundo.
