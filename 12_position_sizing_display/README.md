@@ -37,7 +37,7 @@ Percebam que a largura foi forçada através do CSS, no primeiro para `400px` e 
 
 Para a altura também existem as classes `h-25`, `h-50`, `h-75`, `h-100` e `h-auto`.
 
-Além de definir a largura e altura, também é possível definir a [largura](https://developer.mozilla.org/pt-BR/docs/Web/CSS/max-width) e [altura](https://developer.mozilla.org/en-US/docs/Web/CSS/max-height)máximas.
+Além de definir a largura e altura, também é possível definir a [largura](https://developer.mozilla.org/pt-BR/docs/Web/CSS/max-width) e [altura](https://developer.mozilla.org/en-US/docs/Web/CSS/max-height) máximas.
 
 ### Exibição
 O [display do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display) nos permite escolher como um elemento será renderizado, se no formato de bloco, *inline* (como texto) e até mesmo se ele não será exibido. As classes para *display* no Bootstrap são representadas assim: `d-none`, `d-inline`, `d-inline-block`, `d-block`, `d-grid`, `d-table`, `d-table-cell`, `d-table-row`, `d-flex` e `d-inline-flex`. Estas classes são responsivas e configuram esse *display* para o tamanho `xs` em diante. Para configurar em outros dispositivos, existirão as variantes `d-sm-none`, `d-md-none` e assim por diante, para todos os tamanhos (`sm`, `md`, `lg`, `xl` e `xxl`) e para todos os *display* já abordados.
