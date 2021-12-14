@@ -75,7 +75,7 @@ No exemplo acima, o que irá mudar de tamanho será apenas o primeiro bloco (da 
 
 Com o `flex-shrink-0` e `flex-shrink-1`, o padrão será `flex-shrink-0`, que quer dizer que o elemento **não** será priorizado a perder largura caso o tamanho do dispositivo diminua. Já o `flex-shrink-1` está informando exatamente o contrário, que a largura do elemento não é tão importante e pode diminuir.
 
-![flex shrink](./imgs/flex-flex-shrink.png)
+![flex shrink](./imgs/flex-shrink.png)
 ```html
 <div class="d-flex bd-highlight">
   <div class="p-2 w-100 bd-highlight">Flex item</div>
