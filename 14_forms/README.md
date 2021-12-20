@@ -178,7 +178,91 @@ O *radio button* e o *checkbox* podem ser exibidos no formato *inline*, um ao la
 </div>
 ```
 
-A aplicação é junto com o `form-check`, informando assim que o rótulo deve ser exibido junto com a caixa e que todas as opções deverão ser exibidas uma ao lado da outra.
+A aplicação é feita junto com o `form-check`, informando que o rótulo deve ser exibido junto com a caixa de marcação e que todas as opções deverão ser exibidas uma ao lado da outra.
 
+
+### Range
+O HTML 5 trouxe um novo tipo para o `<input>`, que é o tipo *range*. O HTML é `<input type="range">` que é uma especie de seletor para um intervalo conhecido. Abaixo a representação do componente.
+
+![Range](./imgs/range.png)
+
+```html
+<div>
+  <label for="customRange1" class="form-label">Bootstrap</label>
+  <input type="range" class="form-range" min="0" max="5" id="customRange1">
+</div>
+
+<div class="mt-3">
+  <label for="customRange2" class="form-label">Nativo</label>
+  <input type="range" min="0" max="5" id="customRange2">
+</div>
+```
+
+Acima o exemplo do *range* no formato nativo do navegador e no Bootstrap.
+
+### Grupos de *input*
+Os grupos de *input* permitem apresentar os componentes com uma outra apresentação. Veja o exemplo abaixo.
+
+![Input group](./imgs/input-group.png)
+```html
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">@example.com</span>
+</div>
+
+<label for="basic-url" class="form-label">Your vanity URL</label>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-text">.00</span>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+  <span class="input-group-text">@</span>
+  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">With textarea</span>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+```
+
+Observe as classes `input-group` e `input-group-text`. Elas trabalham em conjunto para formar, visualmente, uma única entrada de dados, dando a impressão que a caixa de texto possui um conteúdo anexo para auxiliar no preenchimento.
+
+#### Variação de tamanho
+O grupo de *input* também pode ter o seu tamanho modificado com as classes `input-group-sm` e `input-group-lg`.
+
+![Tamanho do grupo de input](./imgs/input-group-size.png)
+
+```html
+<div class="input-group input-group-sm mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div>
+
+<div class="input-group input-group-lg">
+  <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+</div>
+```
+
+Um detalhamento melhor e com muito mais exemplos para os grupos de *input* podem ser encontrados na [documentação oficial](https://getbootstrap.com/docs/5.1/forms/input-group/) do Bootstrap.
 
 ## Atividade
