@@ -265,4 +265,142 @@ O grupo de *input* também pode ter o seu tamanho modificado com as classes `inp
 
 Um detalhamento melhor e com muito mais exemplos para os grupos de *input* podem ser encontrados na [documentação oficial](https://getbootstrap.com/docs/5.1/forms/input-group/) do Bootstrap.
 
+### Rótulos flutuantes
+Os rótulos flutuantes é mais uma opção de exibição dos rótulos junto com os campos, fugindo daquele padrão em que o rótulo vem imediatamente antes do campo de texto. Neste formato de exibição, o rótulo é exibido dentro do campo e quando o usuário.
+
+![Rótulo flutuante](./imgs/floating-label.gif)
+
+```html
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Password</label>
+</div>
+```
+
+A animação acima ilustra o que acontece quando o usuário acessa o campo de texto. O rótulo passa por uma animação em que irá se deslocar, abrindo espaço para digitação. Para implementar este recurso tanto o rótulo quanto o campo de texto precisam estar dentro do mesmo elemento que deve estar formatado com a classe `form-floating`. No exemplo acima o `<div class="form-floating">` é o elemento que irá conter o `<input>` e o `<label>`. Outro ponto importante é que a ordem entre o `<input>` e o `<label>` é alterada.
+
+Este tipo de flutuação funcionará com os `<input>` de texto, `<textarea>` e `<select>`.
+
+### *Layout* do formulário
+O formulário pode ser formatado com as estruturas de layout já existente, como o sistema de grid, flexbox, etc.
+
+![Layout do formulário](./imgs/form-layout.png)
+
+```html
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+```
+
+No exemplo acima é utilizado o sistema de grid para diagramar o formulário, permitindo que os campos ocupem a mesma linha. Este mesmo formulário terá uma exibição diferente em um dispositivo móvel.
+
+#### Formulário horizontal
+Outra forma de exibir os rótulos é na mesma linha em que o campo é exibido. Isso é obtido através do **sistema de grid e da classe `col-form-label`**.
+
+![Formulário horizontal](./imgs/form-horizontal.png)
+
+```html
+<form>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          First radio
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Second radio
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+        <label class="form-check-label" for="gridRadios3">
+          Third disabled radio
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <div class="row mb-3">
+    <div class="col-sm-10 offset-sm-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Example checkbox
+        </label>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+```
+
+Os rótulos recebem a classe `col-form-label` quando precisam ficar lado a lado ao campo que representa. As classes `row` e `col-*` são usadas para separar o quanto de espaço cada um (rótulo e campo) irá ocupar.
+
+### Validação
+A etapa de validação não ficou pronta para este roteiro, consulte a [documentação oficial](https://getbootstrap.com/docs/5.1/forms/validation/).
+
 ## Atividade
+1. Implemente um formulário que tenha a mesma aparência que os exemplos abaixo. Observe que o mesmo formulário deverá ter uma apresentação levemente diferente entre um dispositivo *mobile* (extra pequeno, pequeno e médio) e em *desktop* (grande, extra grande e extra extra grande). A primeira figura (que é uma animação) é a versão *desktop* e a segunda a versão *mobile*.
+![Versão desktop](./imgs/exercise-desktop.gif)
+![Versão desktop](./imgs/exercise-mobile.png)
